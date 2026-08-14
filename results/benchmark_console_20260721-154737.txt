@@ -1,0 +1,342 @@
+Console log will be saved to: results\console_logs\benchmark_console_20260721-154737.txt
+Benchmark grid: 325 generated instances
+Algorithms per instance: 13
+k values: [1, 2, 3, 4, 5]
+
+[case 1/325] seed=3142
+==========================================================================================
+grid_r1_Uniform(0,1000)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Uniform(0,1000)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.882 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0010s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.850 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0010s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.777 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.420 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.347 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[case 2/325] seed=3143
+==========================================================================================
+grid_r1_Uniform(100,1000)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Uniform(100,1000)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0010s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.620 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.461 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.388 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[case 3/325] seed=3144
+==========================================================================================
+grid_r1_Normal(mean=500,std=100)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Normal(mean=500,std=100)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.932 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.649 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.325 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.257 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[case 4/325] seed=3145
+==========================================================================================
+grid_r1_Normal(mean=300,std=500)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Normal(mean=300,std=500)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0010s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.880 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.449 | MaxAlphaEF3X:   0.898 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.674 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.491 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[case 5/325] seed=3146
+==========================================================================================
+grid_r1_Mallows(phi=0.0)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.0)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.708 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.898 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0010s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.890 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.941 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.503 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.708 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.382 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.708 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.329 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[case 6/325] seed=3147
+==========================================================================================
+grid_r1_Mallows(phi=0.1)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.1)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.751 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0010s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.901 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.504 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.751 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.382 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.751 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.330 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[case 7/325] seed=3148
+==========================================================================================
+grid_r1_Mallows(phi=0.5)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.5)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.905 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:   False | MaxAlphaEFX:   0.996 | Time: 0.0010s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.996 | MaxAlphaEFX:   0.996 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.996 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.948 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.632 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.905 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.454 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.905 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.413 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[case 8/325] seed=3149
+==========================================================================================
+grid_r1_Mallows(phi=0.9)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.9)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:   False | MaxAlphaEFX:   0.934 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.947 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.934 | MaxAlphaEFX:   0.934 | Guarantee>=0.500: PASS | Time: 0.0010s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.934 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.797 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.601 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.436 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0011s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.335 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[case 9/325] seed=3150
+==========================================================================================
+grid_r1_Mallows(phi=1.0)_n3_m10 | 3 agents, 10 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents…186199 tokens truncated…in with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0030s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.383 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.761 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.249 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[case 318/325] seed=408447
+==========================================================================================
+grid_r5_Mallows(phi=0.1)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.1)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.810 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:   False | MaxAlphaEFX:   0.994 | Time: 0.0080s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.815 | Time: 0.0020s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.994 | MaxAlphaEFX:   0.994 | Guarantee>=0.500: PASS | Time: 0.0060s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0091s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0071s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0030s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.876 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0050s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0030s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.381 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0021s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.810 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.248 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[case 319/325] seed=408448
+==========================================================================================
+grid_r5_Mallows(phi=0.5)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.5)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.803 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0070s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.924 | Time: 0.0030s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0051s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.945 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0043s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0060s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0030s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.868 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0051s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.998 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0020s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.446 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.803 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.255 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[case 320/325] seed=408449
+==========================================================================================
+grid_r5_Mallows(phi=0.9)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.9)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:   False | MaxAlphaEFX:   0.971 | Time: 0.0060s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.844 | Time: 0.0020s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.971 | MaxAlphaEFX:   0.971 | Guarantee>=0.500: PASS | Time: 0.0051s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.971 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0040s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.960 | MaxAlphaEF2X:   0.997 | Guarantee>=0.750: PASS | Time: 0.0050s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.979 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0030s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.959 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0040s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.963 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.644 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.270 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[case 321/325] seed=408450
+==========================================================================================
+grid_r5_Mallows(phi=1.0)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:   False | MaxAlphaEFX:   0.784 | Time: 0.0060s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.914 | Time: 0.0020s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.784 | MaxAlphaEFX:   0.784 | Guarantee>=0.500: PASS | Time: 0.0040s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.784 | MaxAlphaEF2X:   0.950 | Guarantee>=0.667: PASS | Time: 0.0040s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.829 | MaxAlphaEF2X:   0.974 | Guarantee>=0.750: PASS | Time: 0.0051s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.829 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0040s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.966 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0030s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.986 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.821 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0020s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.282 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0011s
+
+[case 322/325] seed=408451
+==========================================================================================
+grid_r5_Identical(0,1000)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: Identical(0,1000)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.752 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0091s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.846 | Time: 0.0020s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0104s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0060s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0070s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0050s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.875 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0051s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0020s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.340 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0020s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.752 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.242 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0020s
+
+[case 323/325] seed=408452
+==========================================================================================
+grid_r5_Ordered(0,1000)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: Ordered(0,1000)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.727 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0090s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.955 | Time: 0.0020s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0070s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0060s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0070s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0039s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.806 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0040s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.971 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0020s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.384 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0020s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.727 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.271 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0020s
+
+[case 324/325] seed=408453
+==========================================================================================
+grid_r5_SparseZeroHeavy(p_zero=0.8,range=1-1000)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: SparseZeroHeavy(p_zero=0.8,range=1-1000)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:   False | MaxAlphaEFX:   0.928 | Time: 0.0061s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0021s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.961 | MaxAlphaEFX:   0.961 | Guarantee>=0.500: PASS | Time: 0.0056s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0040s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0050s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0020s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0030s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.879 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[case 325/325] seed=408454
+==========================================================================================
+grid_r5_SharedTopGoods(fraction=0.2)_n8_m40 | 8 agents, 40 items
+==========================================================================================
+
+>>> environment: SharedTopGoods(fraction=0.2)
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:   False | MaxAlphaEFX:   0.939 | Time: 0.0060s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:   False | MaxAlphaEFX:   0.889 | Time: 0.0020s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=8
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.939 | MaxAlphaEFX:   0.939 | Guarantee>=0.500: PASS | Time: 0.0060s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.914 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0050s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.928 | MaxAlphaEF2X:   0.952 | Guarantee>=0.750: PASS | Time: 0.0051s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0030s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.946 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0030s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.979 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.849 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.432 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+==========================================================================================
+All experiments completed. JSON reports are in results\result_files/.
+
