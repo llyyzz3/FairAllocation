@@ -1,0 +1,523 @@
+Console log will be saved to: results\console_logs\benchmark_4agents_console_20260722-140814.txt
+EF2X Four Agents benchmark
+All generated instances use n=4
+Fixed cases: 4
+Random sizes: [8, 12, 16, 24, 32, 50]
+Random environments: 10
+
+[case 1/64] fixed seed=20260715
+==========================================================================================
+fixed_Fixed-SparseZeroHeavyRegression-m15 | 4 agents, 15 items
+==========================================================================================
+
+>>> environment: Fixed-SparseZeroHeavyRegression-m15
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:      21 | Time: 1.1828s
+
+[case 2/64] fixed seed=20260716
+==========================================================================================
+fixed_Fixed-IdenticalIntegerTie-m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Fixed-IdenticalIntegerTie-m16
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0110s
+
+[case 3/64] fixed seed=20260717
+==========================================================================================
+fixed_Fixed-ConflictingTopGoods-m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Fixed-ConflictingTopGoods-m8
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0296s
+
+[case 4/64] fixed seed=20260718
+==========================================================================================
+fixed_Fixed-LargeDeterministic-m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Fixed-LargeDeterministic-m50
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.960 | InternalEF2X(all-goods):    True | Iterations:      40 | Time: 7.4563s
+
+[case 5/64] seed=20368714
+==========================================================================================
+random_r1_Uniform(0,2000)-4Agents_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Uniform(0,2000)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0080s
+
+[case 6/64] seed=20368715
+==========================================================================================
+random_r1_Uniform(1,50)-4Agents_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Uniform(1,50)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0365s
+
+[case 7/64] seed=20368716
+==========================================================================================
+random_r1_Normal(mean=800,std=350)-4Agents_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Normal(mean=800,std=350)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0040s
+
+[case 8/64] seed=20368717
+==========================================================================================
+random_r1_Normal(mean=300,std=500)-4Agents_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Normal(mean=300,std=500)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0151s
+
+[case 9/64] seed=20368718
+==========================================================================================
+random_r1_Mallows(phi=0.0)_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0051s
+
+[case 10/64] seed=20368719
+==========================================================================================
+random_r1_Mallows(phi=0.25)_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.25)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0050s
+
+[case 11/64] seed=20368720
+==========================================================================================
+random_r1_Mallows(phi=0.75)_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.75)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0321s
+
+[case 12/64] seed=20368721
+==========================================================================================
+random_r1_Mallows(phi=1.0)_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0316s
+
+[case 13/64] seed=20368722
+==========================================================================================
+random_r1_Identical(0,1200)-4Agents_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Identical(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0060s
+
+[case 14/64] seed=20368723
+==========================================================================================
+random_r1_Ordered(0,1200)-4Agents_m8 | 4 agents, 8 items
+==========================================================================================
+
+>>> environment: Ordered(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0060s
+
+[case 15/64] seed=20372714
+==========================================================================================
+random_r1_Uniform(0,2000)-4Agents_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Uniform(0,2000)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.920 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0753s
+
+[case 16/64] seed=20372715
+==========================================================================================
+random_r1_Uniform(1,50)-4Agents_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Uniform(1,50)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.731 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0688s
+
+[case 17/64] seed=20372716
+==========================================================================================
+random_r1_Normal(mean=800,std=350)-4Agents_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Normal(mean=800,std=350)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0595s
+
+[case 18/64] seed=20372717
+==========================================================================================
+random_r1_Normal(mean=300,std=500)-4Agents_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Normal(mean=300,std=500)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0620s
+
+[case 19/64] seed=20372718
+==========================================================================================
+random_r1_Mallows(phi=0.0)_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0085s
+
+[case 20/64] seed=20372719
+==========================================================================================
+random_r1_Mallows(phi=0.25)_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.25)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0696s
+
+[case 21/64] seed=20372720
+==========================================================================================
+random_r1_Mallows(phi=0.75)_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.75)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0162s
+
+[case 22/64] seed=20372721
+==========================================================================================
+random_r1_Mallows(phi=1.0)_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.0675s
+
+[case 23/64] seed=20372722
+==========================================================================================
+random_r1_Identical(0,1200)-4Agents_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Identical(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0100s
+
+[case 24/64] seed=20372723
+==========================================================================================
+random_r1_Ordered(0,1200)-4Agents_m12 | 4 agents, 12 items
+==========================================================================================
+
+>>> environment: Ordered(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0122s
+
+[case 25/64] seed=20376714
+==========================================================================================
+random_r1_Uniform(0,2000)-4Agents_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Uniform(0,2000)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.862 | InternalEF2X(all-goods):    True | Iterations:       2 | Time: 0.1718s
+
+[case 26/64] seed=20376715
+==========================================================================================
+random_r1_Uniform(1,50)-4Agents_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Uniform(1,50)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       2 | Time: 0.1574s
+
+[case 27/64] seed=20376716
+==========================================================================================
+random_r1_Normal(mean=800,std=350)-4Agents_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Normal(mean=800,std=350)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0160s
+
+[case 28/64] seed=20376717
+==========================================================================================
+random_r1_Normal(mean=300,std=500)-4Agents_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Normal(mean=300,std=500)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       5 | Time: 0.3516s
+
+[case 29/64] seed=20376718
+==========================================================================================
+random_r1_Mallows(phi=0.0)_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0240s
+
+[case 30/64] seed=20376719
+==========================================================================================
+random_r1_Mallows(phi=0.25)_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.25)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0211s
+
+[case 31/64] seed=20376720
+==========================================================================================
+random_r1_Mallows(phi=0.75)_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.75)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.976 | InternalEF2X(all-goods):    True | Iterations:       4 | Time: 0.3142s
+
+[case 32/64] seed=20376721
+==========================================================================================
+random_r1_Mallows(phi=1.0)_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.994 | InternalEF2X(all-goods):    True | Iterations:       2 | Time: 0.1667s
+
+[case 33/64] seed=20376722
+==========================================================================================
+random_r1_Identical(0,1200)-4Agents_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Identical(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0211s
+
+[case 34/64] seed=20376723
+==========================================================================================
+random_r1_Ordered(0,1200)-4Agents_m16 | 4 agents, 16 items
+==========================================================================================
+
+>>> environment: Ordered(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0310s
+
+[case 35/64] seed=20384714
+==========================================================================================
+random_r1_Uniform(0,2000)-4Agents_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Uniform(0,2000)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0603s
+
+[case 36/64] seed=20384715
+==========================================================================================
+random_r1_Uniform(1,50)-4Agents_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Uniform(1,50)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.925 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.1202s
+
+[case 37/64] seed=20384716
+==========================================================================================
+random_r1_Normal(mean=800,std=350)-4Agents_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Normal(mean=800,std=350)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.4918s
+
+[case 38/64] seed=20384717
+==========================================================================================
+random_r1_Normal(mean=300,std=500)-4Agents_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Normal(mean=300,std=500)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:      11 | Time: 3.0529s
+
+[case 39/64] seed=20384718
+==========================================================================================
+random_r1_Mallows(phi=0.0)_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0297s
+
+[case 40/64] seed=20384719
+==========================================================================================
+random_r1_Mallows(phi=0.25)_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.25)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0380s
+
+[case 41/64] seed=20384720
+==========================================================================================
+random_r1_Mallows(phi=0.75)_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.75)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.918 | InternalEF2X(all-goods):    True | Iterations:       5 | Time: 0.5188s
+
+[case 42/64] seed=20384721
+==========================================================================================
+random_r1_Mallows(phi=1.0)_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.881 | InternalEF2X(all-goods):    True | Iterations:       9 | Time: 0.9774s
+
+[case 43/64] seed=20384722
+==========================================================================================
+random_r1_Identical(0,1200)-4Agents_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Identical(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0499s
+
+[case 44/64] seed=20384723
+==========================================================================================
+random_r1_Ordered(0,1200)-4Agents_m24 | 4 agents, 24 items
+==========================================================================================
+
+>>> environment: Ordered(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0251s
+
+[case 45/64] seed=20392714
+==========================================================================================
+random_r1_Uniform(0,2000)-4Agents_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Uniform(0,2000)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.932 | InternalEF2X(all-goods):    True | Iterations:       6 | Time: 0.8459s
+
+[case 46/64] seed=20392715
+==========================================================================================
+random_r1_Uniform(1,50)-4Agents_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Uniform(1,50)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:      11 | Time: 1.4057s
+
+[case 47/64] seed=20392716
+==========================================================================================
+random_r1_Normal(mean=800,std=350)-4Agents_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Normal(mean=800,std=350)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.1393s
+
+[case 48/64] seed=20392717
+==========================================================================================
+random_r1_Normal(mean=300,std=500)-4Agents_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Normal(mean=300,std=500)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:      25 | Time: 14.3653s
+
+[case 49/64] seed=20392718
+==========================================================================================
+random_r1_Mallows(phi=0.0)_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0671s
+
+[case 50/64] seed=20392719
+==========================================================================================
+random_r1_Mallows(phi=0.25)_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.25)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0596s
+
+[case 51/64] seed=20392720
+==========================================================================================
+random_r1_Mallows(phi=0.75)_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.75)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       3 | Time: 0.4328s
+
+[case 52/64] seed=20392721
+==========================================================================================
+random_r1_Mallows(phi=1.0)_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.982 | InternalEF2X(all-goods):    True | Iterations:      10 | Time: 2.4294s
+
+[case 53/64] seed=20392722
+==========================================================================================
+random_r1_Identical(0,1200)-4Agents_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Identical(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0497s
+
+[case 54/64] seed=20392723
+==========================================================================================
+random_r1_Ordered(0,1200)-4Agents_m32 | 4 agents, 32 items
+==========================================================================================
+
+>>> environment: Ordered(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0845s
+
+[case 55/64] seed=20410714
+==========================================================================================
+random_r1_Uniform(0,2000)-4Agents_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Uniform(0,2000)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.973 | InternalEF2X(all-goods):    True | Iterations:       8 | Time: 1.7099s
+
+[case 56/64] seed=20410715
+==========================================================================================
+random_r1_Uniform(1,50)-4Agents_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Uniform(1,50)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.974 | InternalEF2X(all-goods):    True | Iterations:      14 | Time: 6.1851s
+
+[case 57/64] seed=20410716
+==========================================================================================
+random_r1_Normal(mean=800,std=350)-4Agents_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Normal(mean=800,std=350)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:      10 | Time: 2.0083s
+
+[case 58/64] seed=20410717
+==========================================================================================
+random_r1_Normal(mean=300,std=500)-4Agents_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Normal(mean=300,std=500)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:      69 | Time: 72.4101s
+
+[case 59/64] seed=20410718
+==========================================================================================
+random_r1_Mallows(phi=0.0)_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.1619s
+
+[case 60/64] seed=20410719
+==========================================================================================
+random_r1_Mallows(phi=0.25)_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.25)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0755s
+
+[case 61/64] seed=20410720
+==========================================================================================
+random_r1_Mallows(phi=0.75)_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Mallows(phi=0.75)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       1 | Time: 0.3278s
+
+[case 62/64] seed=20410721
+==========================================================================================
+random_r1_Mallows(phi=1.0)_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Mallows(phi=1.0)
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.995 | InternalEF2X(all-goods):    True | Iterations:       6 | Time: 1.4209s
+
+[case 63/64] seed=20410722
+==========================================================================================
+random_r1_Identical(0,1200)-4Agents_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Identical(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.1064s
+
+[case 64/64] seed=20410723
+==========================================================================================
+random_r1_Ordered(0,1200)-4Agents_m50 | 4 agents, 50 items
+==========================================================================================
+
+>>> environment: Ordered(0,1200)-4Agents
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.1186s
+
+==========================================================================================
+All 4-agent experiments completed. JSON reports are in results\result_files/.
+Console log saved to: results\console_logs\benchmark_4agents_console_20260722-140814.txt
+
