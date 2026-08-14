@@ -1,0 +1,337 @@
+Console log will be saved to: results\console_logs\benchmark_console_20260726-141916.txt
+Spliddit benchmark: 2412 complete all instances
+Algorithms per instance: 13
+
+[Spliddit case 1/2412] source_instance_id=28, isDemo=0
+==========================================================================================
+spliddit_instance_28 | 2 agents, 3 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.309 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=2
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.309 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.309 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.309 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.309 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 2/2412] source_instance_id=51, isDemo=0
+==========================================================================================
+spliddit_instance_51 | 2 agents, 4 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=2
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 3/2412] source_instance_id=52, isDemo=0
+==========================================================================================
+spliddit_instance_52 | 2 agents, 3 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=2
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[Spliddit case 4/2412] source_instance_id=53, isDemo=0
+==========================================================================================
+spliddit_instance_53 | 2 agents, 3 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=2
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 5/2412] source_instance_id=85, isDemo=0
+==========================================================================================
+spliddit_instance_85 | 3 agents, 4 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.436 | Time: 0.0010s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0010s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.436 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.436 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.436 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.436 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 6/2412] source_instance_id=135, isDemo=0
+==========================================================================================
+spliddit_instance_135 | 3 agents, 4 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.359 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.359 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0010s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.359 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.359 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.359 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 7/2412] source_instance_id=164, isDemo=0
+==========================================================================================
+spliddit_instance_164 | 3 agents, 8 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.667 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.598 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.667 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0011s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.443 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.667 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.380 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.667 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.333 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 8/2412] source_instance_id=166, isDemo=0
+==========================================================================================
+spliddit_instance_166 | 2 agents, 9 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.990 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=2
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0010s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.939 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.859 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.990 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.691 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 9/2412] source_instance_id=187, isDemo=0
+==========================================================================================
+spliddit_instance_187 | 2 agents, 3 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.997 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [run…252144 tokens truncated…50: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.364 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.364 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0010s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.364 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 428/2412] source_instance_id=9035, isDemo=1
+==========================================================================================
+spliddit_instance_9035 | 3 agents, 6 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.692 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.521 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.521 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.521 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[Spliddit case 429/2412] source_instance_id=9036, isDemo=0
+==========================================================================================
+spliddit_instance_9036 | 2 agents, 5 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.851 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=2
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.823 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.851 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.573 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.851 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.573 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.851 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.573 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 430/2412] source_instance_id=9040, isDemo=1
+==========================================================================================
+spliddit_instance_9040 | 3 agents, 6 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.574 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0010s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.390 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0010s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.390 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.390 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 431/2412] source_instance_id=9051, isDemo=1
+==========================================================================================
+spliddit_instance_9051 | 3 agents, 6 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.602 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.369 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.369 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.369 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 432/2412] source_instance_id=9055, isDemo=1
+==========================================================================================
+spliddit_instance_9055 | 3 agents, 6 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0010s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.574 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.360 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.360 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.360 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0010s
+
+[Spliddit case 433/2412] source_instance_id=9089, isDemo=1
+==========================================================================================
+spliddit_instance_9089 | 4 agents, 6 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.850 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: EF2X Four Agents                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | InternalEF2X(all-goods):    True | Iterations:       0 | Time: 0.0060s
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.850 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.780 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0010s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.850 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.780 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.850 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.780 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.850 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0011s
+    [running algorithm]: Approximate-EF5X                   | EF1:    True | EFX:   False | MaxAlphaEFX:   0.780 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 434/2412] source_instance_id=9116, isDemo=1
+==========================================================================================
+spliddit_instance_9116 | 3 agents, 6 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.097 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.097 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.097 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.333 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.097 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.333 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.097 | MaxAlphaEF5X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF5X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.333 | MaxAlphaEF5X:   1.000 | Guarantee>=0.857: PASS | Time: 0.0000s
+
+[Spliddit case 435/2412] source_instance_id=9136, isDemo=1
+==========================================================================================
+spliddit_instance_9136 | 3 agents, 6 items
+==========================================================================================
+
+>>> environment: Spliddit-Real-World
+    [running algorithm]: Round-Robin                        | EF1:    True | EFX:   False | MaxAlphaEFX:   0.615 | Time: 0.0000s
+    [running algorithm]: Envy-Cycle Elimination             | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [running algorithm]: 0.618-EFX (Draft-and-Eliminate)    | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | Time: 0.0000s
+    [skipping algorithm]: EF2X Four Agents                   | unsupported n=3
+    [running algorithm]: 1-RoundRobin with ECE              | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEFX:   1.000 | Guarantee>=0.500: PASS | Time: 0.0000s
+    [running algorithm]: 2-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.615 | MaxAlphaEF2X:   1.000 | Guarantee>=0.667: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF2X                   | EF1:    True | EFX:    True | MaxAlphaEFX:   1.000 | MaxAlphaEF2X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: 3-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.615 | MaxAlphaEF3X:   1.000 | Guarantee>=0.750: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF3X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.443 | MaxAlphaEF3X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: 4-RoundRobin with ECE              | EF1:    True | EFX:   False | MaxAlphaEFX:   0.615 | MaxAlphaEF4X:   1.000 | Guarantee>=0.800: PASS | Time: 0.0000s
+    [running algorithm]: Approximate-EF4X                   | EF1:   False | EFX:   False | MaxAlphaEFX:   0.443 | MaxAlphaEF4X:   1.000 | Guarantee>=0.833: PASS | Time: 0.0000s
+    [running algorithm]: 5-RoundRobin with ECE    
